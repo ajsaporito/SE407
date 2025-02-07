@@ -2,7 +2,7 @@
   "profiles": {
     "BlockBuster.Console": {
       "commandName": "Project",
-      "commandLineArgs": "csv getallcheckedoutmovies"
+      "commandLineArgs": "console getmoviebyid 77"
     }
   }
 }

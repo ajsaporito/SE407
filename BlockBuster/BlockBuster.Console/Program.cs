@@ -96,7 +96,7 @@ namespace BlockBuster.ConsoleApp
 		public static void Error()
 		{
 			Console.WriteLine("Argument Error:");
-			Console.WriteLine("\nUsage: <output-type> <command> [parameters].");
+			Console.WriteLine("\nUsage: <output-type> <command> [parameter].");
 			Console.WriteLine("\nAvailable output types: \nconsole \ncsv");
 			Console.WriteLine("\nAvailable commands: \ngetmoviebyid \ngetallmovies \ngetallcheckedoutmovies \ngetallmoviesbygenredescription \ngetallmoviesbydirectorlastname");
 		}

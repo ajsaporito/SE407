@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bookstore.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "console getallbooks\r\n\r\n \r\n"
+    }
+  }
+}

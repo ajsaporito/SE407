@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-    <ItemGroup>
+	<ItemGroup>
 		<None Remove="config.json" />
 	</ItemGroup>
 

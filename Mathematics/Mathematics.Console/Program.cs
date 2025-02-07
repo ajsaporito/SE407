@@ -20,39 +20,63 @@ namespace Mathematics.ConsoleApp
 			{
 				case "add":
 					if (_numbers != null && ValidArgumentCount(_numbers.Count, 2))
+					{
 						Console.WriteLine($"Add: The result is {basicMath.AddNumbers(_numbers[0], _numbers[1])}.");
+					}
 					break;
+
 				case "subtract":
 					if (_numbers != null && ValidArgumentCount(_numbers.Count, 2))
+					{
 						Console.WriteLine($"Subtract: The result is {basicMath.SubtractNumbers(_numbers[0], _numbers[1])}.");
+					}
 					break;
+
 				case "multiply":
 					if (_numbers != null && ValidArgumentCount(_numbers.Count, 2))
+					{
 						Console.WriteLine($"Multiply: The result is {basicMath.MultiplyNumbers(_numbers[0], _numbers[1])}.");
+					}
 					break;
+
 				case "divide":
 					if (_numbers != null && ValidArgumentCount(_numbers.Count, 2))
+					{
 						Console.WriteLine($"Divide: The result is {basicMath.DivideNumbers(_numbers[0], _numbers[1])}.");
+					}
 					break;
+
 				case "area":
 					if (_numbers != null && ValidArgumentCount(_numbers.Count, 2))
 						Console.WriteLine($"Area: The result is {advMath.CalculateArea(_numbers[0], _numbers[1])}.");
 					break;
+
 				case "average":
 					if (_numbers != null && _numbers.Count > 0)
+					{
 						Console.WriteLine($"Average: The result is {advMath.CalculateAverage(_numbers)}.");
+					}
 					else
+					{
 						Console.WriteLine("Not enough arguments.");
 						Environment.Exit(99);
+					}
 					break;
+
 				case "square":
 					if (_numbers != null && ValidArgumentCount(_numbers.Count, 1))
+					{
 						Console.WriteLine($"Square: {advMath.CalculateSquareNumber(_numbers[0])}.");
+					}
 					break;
+
 				case "pythagorean":
 					if (_numbers != null && ValidArgumentCount(_numbers.Count, 2))
+					{
 						Console.WriteLine($"Pythagorean: {advMath.CalculatePythagoreanTheorem(_numbers[0], _numbers[1])}.");
+					}
 					break;
+
 				default:
 					Console.WriteLine($"{_operand} is not a valid operator. Please enter 'add', 'subtract', 'multiply', or 'divide', 'area', 'average, 'square', or 'pythagorean'.");
 					break;
