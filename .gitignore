@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # Hide connection string
 config.json
+/BlockBuster.WebApp/BlockBuster.WebApp/config.json
